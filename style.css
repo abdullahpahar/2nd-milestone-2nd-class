@@ -24,7 +24,60 @@
 }
 
 
+.box{
+    background-color: rgba(224, 231, 228, 0.927);
+    padding: 20px;
+    border-radius: 20px;
+}
+.box-wrapper{
+    display: flex;
+    gap:40px;
+}
 
+.item{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(165, 214, 159);
+    border:2px solid rgb(120, 142, 118);
+    font-size: 20px;
+}
+
+.item-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px)
+ {
+    .box-wrapper{
+        flex-direction: column-reverse;
+       
+        gap:30px;
+        .box{
+            background-color: tan;
+        }
+    
+}}
 
 
 
